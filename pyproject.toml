@@ -1,0 +1,19 @@
+[project]
+name = "ternary-alpha"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "DanielBerns", email = "daniel.w.berns@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.4.4",
+]
+
+[project.scripts]
+ternary-alpha = "ternary_alpha:main"
+
+[build-system]
+requires = ["uv_build>=0.10.9,<0.11.0"]
+build-backend = "uv_build"
