@@ -28,3 +28,6 @@ history = network.train(X_train, y_train, epochs=50, batch_size=32, learning_rat
 
 # Inference
 predictions, classes = network.predict(X_test)
+
+
+## Developing deep network
